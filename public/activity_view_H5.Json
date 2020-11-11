@@ -1,0 +1,58 @@
+{
+  "name": "活动模板系统",
+  "hid": "activity_view_H5",
+  "api": {
+    "dev": [
+      {
+        "name": "base",
+        "url": "http://dev.laolai.com:85/llw-ws/",
+        "des": "测试接口地址1号测试成功成功！"
+      },
+      {
+        "name": "share",
+        "url": "http://dev.laolai.com:85/llw-bs/h5/activity/index.html#/activity/sharePage",
+        "des": "测试接口地址1号测试成功成功！"
+      }
+    ],
+    "test": [
+      {
+        "name": "base",
+        "url": "http://dev.laolai.com:85/llw-ws/",
+        "des": "测试接口地址1号"
+      },
+      {
+        "name": "share",
+        "url": "http://dev.laolai.com:85/llw-bs/h5/activity/index.html#/activity/sharePage",
+        "des": "测试接口地址1号测试成功成功！"
+      }
+    ],
+    "prepro": [
+      {
+        "name": "base",
+        "url": "http://identify.laolai.com/identify-prefor/services/ws/"
+      },
+      {
+        "name": "share",
+        "url": "http://manager.laolai.com/llw-bsprefor/h5/activity/index.html#/activity/sharePage",
+        "des": "测试接口地址1号测试成功成功！"
+      }
+    ],
+    "uat": [
+      {
+        "name": "base",
+        "url": "http://identify.laolai.com/identify-p/services/ws/"
+      },
+      {
+        "name": "share",
+        "url": "http://manager.laolai.com/llw-bs-p//h5/activity/index.html#/activity/sharePage",
+        "des": "测试接口地址1号测试成功成功！"
+      }
+    ]
+  },
+  "envwords": {
+    "dev": "http://localhost:8080",
+    "test": "http://dev.laolai.com:85/llw-bs/",
+    "prepro": "http://manager.laolai.com/llw-bsprefor/",
+    "uat": "http://manager.laolai.com/llw-bs-p/"
+  }
+}
